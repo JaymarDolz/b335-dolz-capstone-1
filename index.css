@@ -74,11 +74,11 @@
 
 #aboutme{
 	background-color: black;
-	padding-top: 10%;
+	padding-top: 0%;
 }
 
 .aboutmecontent{
-	width: 70%;
+	width: 60%;
 }
 
 #webprojects{
@@ -94,7 +94,8 @@
 
 #web-containerwhole{
 	background-color: #242430;
-	border-radius: 20px;	
+	border-radius: 20px;
+	padding-top: 5%;	
 }
 
 
@@ -136,12 +137,12 @@
 
 #core-tools img{
 	background-color: #243030;
-	padding: 1rem;
+	padding: 5%;
 }
 
 #other-tools img{
 	background-color: #243030;
-	padding: 1rem;
+	padding: 5%;
 	margin-bottom: 5rem;
 }
 
