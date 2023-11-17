@@ -42,11 +42,11 @@
 				<!-- start of content with gridstyle elements -->
 				<div class="container-fluid">
 					<!-- Start of row in CRC -->
-					<div class="row justify-content-center" >
+					<div class="row" >
 
 
 						<!-- About me Section -->
-						<div class="col-lg-6 d-flex flex-column align-items-center justify-content-center" id="ex-aboutme-header">
+						<div class="col-lg-6 d-flex flex-column align-items-center justify-content-center order-2 order-lg-1" id="ex-aboutme-header">
 							<h1 class="text-center">
 								Hello! I'm Jaymar Dolz
 							</h1>
@@ -70,12 +70,14 @@
 						</div>	
 						<!-- End of About me Section -->
 						<!-- Profile Picture -->
-						<div class="col-lg-6 d-flex flex-column align-items-start justify-content-center">
+						<div class="col-lg-6 d-flex flex-row align-items-end justify-content-end order-1" id="profilecontainer">
 							<!-- created an id to set position absolute to bottom of landing page -->
 							<!-- reminder research bootstrap equivalent -->
 							<!-- <img src="./images/profile_jcdolz1.png" class="img-fluid d-lg-none" id="profilepicturesmall"> -->
 							<div class="">
-								<img src="./images/profile_jcdolz1.png" class="img-fluid">
+								<img src="./images/profile_jcdolz1.png" class=" img-fluid d-none d-lg-inline-block
+								d-flex flex-row align-items-end justify-content-end">
+								<img src="./images/profile_jcdolz.png" class="img-fluid d-lg-none w-50" id="profile-jcdolz">
 							</div>
 
 						</div>
@@ -128,7 +130,7 @@
 						<img src="./images/project3.png" class="img-fluid py-5 px-5 pe-lg-1 ps-lg-5" id="webproject">
 					</div>
 					<div class="col-lg-2">
-						<img src="./images/project4.png" class="img-fluid py-5 px-5 pe-lg-5 ps-lg-1" id="webproject">
+						<img src="./images/project4.png" class="img-fluid py-5 px-5 pe-lg-5 ps-lg-1 d-flex flex-row align-items-center justify-content-center" id="webproject">
 					</div>
 					<div class="col-lg-6">
 						<h2 class=" text-white p-5">
@@ -151,7 +153,7 @@
 
 
 		<div class="row">
-		<div class="offset-lg-3 col-lg-6 d-flex flex-column align-items-center justify-content-center" id="slidecontainer">
+		<div class="offset-lg-3 col-lg-6" id="slidecontainer">
 			<h1 class="text-center my-5 text-white">Graphic Design/Art</h1>
 			<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
 			  <div class="carousel-inner">

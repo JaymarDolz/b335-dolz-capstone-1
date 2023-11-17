@@ -9,26 +9,14 @@
 }
 
 .ex-landing{
-	background-image: url(./images/landing_background.jpg);
-/*	reference free image */
-/* https://www.freepik.com/free-vector/modern-desktop-background-geometric-blue-design-vector_18220884.htm#query=dark%20shapes&position=8&from_view=search&track=ais&uuid=05b9db00-64aa-43c8-92d1-d7dfefbd044d */
-	width: auto;
-	height: 120vh;
+	background:
+		linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 34, 65, 0.3)),
+		url("./images/landing_background.jpg");
 	background-repeat: no-repeat;
-	background-position: 0% 50%;
 	background-size: cover;
-}
-@media screen and (min-width: 768px) {
-.ex-landing{
-	height: 140vh;
-	width: auto;
-}
-}
-
-@media screen and (min-width: 992px) {
-.ex-landing{
-	height: 80vh;
-}
+/*	height: 125vh;*/
+	height: inherit;
+	background-position: 0% 50%;
 }
 
 
@@ -39,38 +27,38 @@
   	background: linear-gradient(0deg, rgba(0,0,0,1) 10%, rgba(255,255,255,0) 100%);
 }
 
-#ex-darkbg{
+/*#ex-darkbg{
 	background-color: rgba(0, 0, 0, .2);
 	width: 100%;
 	height: 100%;
-}
+}*/
 
 /*Position of header*/
 #ex-aboutme-header{
   text-align: center;
   font-family: kanit;
   color: white;
-  height: 80vh;
-  width: 50%;
+
+  margin-top: 10%;
+  margin-bottom: 10%;
+  justify-content: center;
+
 }
 
+@media screen and (min-width: 768px) {
+#ex-aboutme-header{
 
-
-/*#profilepicturesmall{
-	position: absolute;
-	margin-bottom: 1rem;
-	right: 1rem;
-	width: 100vw;
-	height: auto;
+}
 }
 
-#profilepicturemedium{
-	position: absolute;
-	bottom: 2rem;
-	right: 1rem;
-	width: 50%;
-	height: auto;
-}*/
+#profile-jcdolz{
+width: 50%;
+height: auto;
+margin-top: 20%;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
 
 #aboutme{
 	background-color: black;
