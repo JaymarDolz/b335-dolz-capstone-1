@@ -74,19 +74,42 @@
 
 #aboutme{
 	background-color: black;
+	padding-top: 10%;
 }
 
 .aboutmecontent{
 	width: 70%;
 }
 
+#webprojects{
+	background-color: black;
+}
+
+#web-container{
+	background-color: black;
+	padding-top: 10%;
+	padding-bottom:;
+
+}
+
+#web-containerwhole{
+	background-color: #242430;
+	border-radius: 20px;	
+}
+
+
+
+
 #projects{
 	background-color: black;
-	height: 100vh;
+	width: auto;
+	padding-top: 10%;
+	padding-bottom: 10%;
 }
 
 #slidecontainer{
 	height: 100vh;
+
 }
 
 .ex-coretoolsimage{
@@ -112,12 +135,12 @@
 }
 
 #core-tools img{
-	background-color: #282424;
+	background-color: #243030;
 	padding: 1rem;
 }
 
 #other-tools img{
-	background-color: #282424;
+	background-color: #243030;
 	padding: 1rem;
 	margin-bottom: 5rem;
 }
