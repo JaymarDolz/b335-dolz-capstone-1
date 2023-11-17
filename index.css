@@ -1,0 +1,177 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+
+/*	font-family: 'Kanit', sans-serif;
+	font-family: 'Roboto', sans-serif;*/
+}
+
+.ex-landing{
+	background-image: url(./images/landing_background.jpg);
+/*	reference free image */
+/* https://www.freepik.com/free-vector/modern-desktop-background-geometric-blue-design-vector_18220884.htm#query=dark%20shapes&position=8&from_view=search&track=ais&uuid=05b9db00-64aa-43c8-92d1-d7dfefbd044d */
+	width: auto;
+	height: 120vh;
+	background-repeat: no-repeat;
+	background-position: 0% 50%;
+	background-size: cover;
+}
+@media screen and (min-width: 768px) {
+.ex-landing{
+	height: 140vh;
+	width: auto;
+}
+}
+
+@media screen and (min-width: 992px) {
+.ex-landing{
+	height: 80vh;
+}
+}
+
+
+#ex-gradientshadow{
+	width: auto;%;
+  	height: 100%;
+  	position: relative;
+  	background: linear-gradient(0deg, rgba(0,0,0,1) 10%, rgba(255,255,255,0) 100%);
+}
+
+#ex-darkbg{
+	background-color: rgba(0, 0, 0, .3);
+	width: 100%;
+	height: 100%;
+}
+
+/*Position of header*/
+#ex-aboutme-header{
+  text-align: center;
+  font-family: kanit;
+  color: white;
+  height: 80vh;
+  width: 50%;
+}
+
+
+
+/*#profilepicturesmall{
+	position: absolute;
+	margin-bottom: 1rem;
+	right: 1rem;
+	width: 100vw;
+	height: auto;
+}
+
+#profilepicturemedium{
+	position: absolute;
+	bottom: 2rem;
+	right: 1rem;
+	width: 50%;
+	height: auto;
+}*/
+
+#aboutme{
+	background-color: black;
+}
+
+.aboutmecontent{
+	width: 70%;
+}
+
+#projects{
+	background-color: black;
+	height: 100vh;
+}
+
+#slidecontainer{
+	height: 100vh;
+}
+
+.ex-coretoolsimage{
+	width: 20vw;
+}
+.ex-othertoolsimage{
+	width: 15vw;
+}
+
+#tools, #divider{
+	background-color: #2cd27c;
+}
+
+
+#tools h3, #tools h2, #tools h1{
+	  font-family: kanit;
+	  font-size: 3rem;
+	  margin-top: 5rem;
+	  margin-bottom: 2rem;
+	  font-weight: bolder;
+	  color:  #282424;
+	  text-align: center;
+}
+
+#core-tools img{
+	background-color: #282424;
+	padding: 1rem;
+}
+
+#other-tools img{
+	background-color: #282424;
+	padding: 1rem;
+	margin-bottom: 5rem;
+}
+
+
+}
+
+.container {
+    max-width: 100%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #282424;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact{
+	background-color: #282424;
+}
+
+#contact *{
+	font-family: kanit;
+}
+
+#contact h1 {
+    text-align: center;
+    color: #333;
+}
+
+#contact form {
+    margin-top: 20px;
+}
+
+#contact label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#contact button {
+    background-color: #2cd27c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
